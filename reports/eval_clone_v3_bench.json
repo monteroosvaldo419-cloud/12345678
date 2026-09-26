@@ -1,0 +1,37 @@
+{
+  "seed": 8000,
+  "episodes": 5,
+  "compare_seed": 8000,
+  "final_seed": 9000,
+  "eval_mode": "eval no_grad greedy argmax deterministic",
+  "results": {
+    "tmp\\rl\\clone_v3_bench.pt": [
+      {
+        "opponent": "brain",
+        "episodes": 5,
+        "seed": 8000,
+        "wins": 0,
+        "losses": 5,
+        "draws": 0,
+        "win_rate": 0.0,
+        "wilson_lo": 0.0,
+        "wilson_hi": 0.43449149475208104,
+        "crowns_for": 0,
+        "crowns_against": 10,
+        "crown_diff": -2.0,
+        "tower_for": 0.0,
+        "tower_against": 1.8695870535714285,
+        "tower_diff": -1.8695870535714285,
+        "hog_share": 0.008097165991902834,
+        "plays_per_match": 49.4,
+        "illegal_total": 0,
+        "illegal_rate": 0.0,
+        "duration_s": 180.0,
+        "opening_mean_elixir": 1.3168709677419344,
+        "opening_min_elixir": 0.178,
+        "first_hog_rate": 0.4,
+        "first_hog_time_s": 0.75
+      }
+    ]
+  }
+}

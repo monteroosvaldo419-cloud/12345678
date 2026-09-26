@@ -1,0 +1,970 @@
+{
+  "checkpoint": "tmp\\rl\\baseline_ppo_smoke_last.pt",
+  "seed": 8000,
+  "repeats": 2,
+  "results": [
+    {
+      "scenario": "A",
+      "title": "incoming Mini P.E.K.K.A.",
+      "ppo": {
+        "index": 0,
+        "action": {
+          "kind": "WAIT",
+          "card": null,
+          "slot": null,
+          "position": null,
+          "cost": null
+        },
+        "probability": 0.4505927466503817,
+        "legal": true
+      },
+      "search": {
+        "index": 1444,
+        "action": {
+          "kind": "PLAY_CARD",
+          "card": "skeletons",
+          "slot": 2,
+          "position": [
+            3,
+            16
+          ],
+          "cost": 1.0
+        },
+        "utility": 34.0789005078125,
+        "depth": 2,
+        "nodes": 19,
+        "elapsed_ms": 359.4145999959437,
+        "timeout": false,
+        "legal": true
+      },
+      "disagreement": true,
+      "ppo_future": {
+        "tower_damage": 0.0,
+        "deaths": [],
+        "own_survivors": 0,
+        "enemy_survivors": 1,
+        "elixir": 8.178,
+        "fingerprint": "df096cec6f0e197b32616d6e707951419789a8156ee045891eaaae0490b12d3b",
+        "accepted": true
+      },
+      "search_future": {
+        "tower_damage": 0.0,
+        "deaths": [],
+        "own_survivors": 3,
+        "enemy_survivors": 1,
+        "elixir": 7.357,
+        "fingerprint": "6835c7259e5bc0592a820068ae3838f4355c5c3b22c4a1769952b973b0ad96f7",
+        "accepted": true
+      },
+      "incompatible_indices": [],
+      "deterministic": true,
+      "repeats": [
+        {
+          "scenario": "A",
+          "title": "incoming Mini P.E.K.K.A.",
+          "ppo": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "probability": 0.4505927466503817,
+            "legal": true
+          },
+          "search": {
+            "index": 1444,
+            "action": {
+              "kind": "PLAY_CARD",
+              "card": "skeletons",
+              "slot": 2,
+              "position": [
+                3,
+                16
+              ],
+              "cost": 1.0
+            },
+            "utility": 34.0789005078125,
+            "depth": 2,
+            "nodes": 19,
+            "elapsed_ms": 359.4145999959437,
+            "timeout": false,
+            "legal": true
+          },
+          "disagreement": true,
+          "ppo_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 0,
+            "enemy_survivors": 1,
+            "elixir": 8.178,
+            "fingerprint": "df096cec6f0e197b32616d6e707951419789a8156ee045891eaaae0490b12d3b",
+            "accepted": true
+          },
+          "search_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 3,
+            "enemy_survivors": 1,
+            "elixir": 7.357,
+            "fingerprint": "6835c7259e5bc0592a820068ae3838f4355c5c3b22c4a1769952b973b0ad96f7",
+            "accepted": true
+          },
+          "incompatible_indices": []
+        },
+        {
+          "scenario": "A",
+          "title": "incoming Mini P.E.K.K.A.",
+          "ppo": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "probability": 0.4505927466503817,
+            "legal": true
+          },
+          "search": {
+            "index": 1444,
+            "action": {
+              "kind": "PLAY_CARD",
+              "card": "skeletons",
+              "slot": 2,
+              "position": [
+                3,
+                16
+              ],
+              "cost": 1.0
+            },
+            "utility": 34.0789005078125,
+            "depth": 2,
+            "nodes": 19,
+            "elapsed_ms": 326.51549999718554,
+            "timeout": false,
+            "legal": true
+          },
+          "disagreement": true,
+          "ppo_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 0,
+            "enemy_survivors": 1,
+            "elixir": 8.178,
+            "fingerprint": "df096cec6f0e197b32616d6e707951419789a8156ee045891eaaae0490b12d3b",
+            "accepted": true
+          },
+          "search_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 3,
+            "enemy_survivors": 1,
+            "elixir": 7.357,
+            "fingerprint": "6835c7259e5bc0592a820068ae3838f4355c5c3b22c4a1769952b973b0ad96f7",
+            "accepted": true
+          },
+          "incompatible_indices": []
+        }
+      ]
+    },
+    {
+      "scenario": "B",
+      "title": "group with complete Fireball data",
+      "ppo": {
+        "index": 0,
+        "action": {
+          "kind": "WAIT",
+          "card": null,
+          "slot": null,
+          "position": null,
+          "cost": null
+        },
+        "probability": 0.4660238185154219,
+        "legal": true
+      },
+      "search": {
+        "index": 0,
+        "action": {
+          "kind": "WAIT",
+          "card": null,
+          "slot": null,
+          "position": null,
+          "cost": null
+        },
+        "utility": 47.20055989583334,
+        "depth": 2,
+        "nodes": 19,
+        "elapsed_ms": 413.906700006919,
+        "timeout": false,
+        "legal": true
+      },
+      "disagreement": false,
+      "ppo_future": {
+        "tower_damage": 0.0,
+        "deaths": [],
+        "own_survivors": 0,
+        "enemy_survivors": 5,
+        "elixir": 9.178,
+        "fingerprint": "82e3a185a215f9adb488a4365179a21818c12976f6a8b1f0b9736c7790f90097",
+        "accepted": true
+      },
+      "search_future": {
+        "tower_damage": 0.0,
+        "deaths": [],
+        "own_survivors": 0,
+        "enemy_survivors": 5,
+        "elixir": 9.178,
+        "fingerprint": "82e3a185a215f9adb488a4365179a21818c12976f6a8b1f0b9736c7790f90097",
+        "accepted": true
+      },
+      "incompatible_indices": [],
+      "deterministic": true,
+      "repeats": [
+        {
+          "scenario": "B",
+          "title": "group with complete Fireball data",
+          "ppo": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "probability": 0.4660238185154219,
+            "legal": true
+          },
+          "search": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "utility": 47.20055989583334,
+            "depth": 2,
+            "nodes": 19,
+            "elapsed_ms": 413.906700006919,
+            "timeout": false,
+            "legal": true
+          },
+          "disagreement": false,
+          "ppo_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 0,
+            "enemy_survivors": 5,
+            "elixir": 9.178,
+            "fingerprint": "82e3a185a215f9adb488a4365179a21818c12976f6a8b1f0b9736c7790f90097",
+            "accepted": true
+          },
+          "search_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 0,
+            "enemy_survivors": 5,
+            "elixir": 9.178,
+            "fingerprint": "82e3a185a215f9adb488a4365179a21818c12976f6a8b1f0b9736c7790f90097",
+            "accepted": true
+          },
+          "incompatible_indices": []
+        },
+        {
+          "scenario": "B",
+          "title": "group with complete Fireball data",
+          "ppo": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "probability": 0.4660238185154219,
+            "legal": true
+          },
+          "search": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "utility": 47.20055989583334,
+            "depth": 2,
+            "nodes": 19,
+            "elapsed_ms": 432.80379999487195,
+            "timeout": false,
+            "legal": true
+          },
+          "disagreement": false,
+          "ppo_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 0,
+            "enemy_survivors": 5,
+            "elixir": 9.178,
+            "fingerprint": "82e3a185a215f9adb488a4365179a21818c12976f6a8b1f0b9736c7790f90097",
+            "accepted": true
+          },
+          "search_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 0,
+            "enemy_survivors": 5,
+            "elixir": 9.178,
+            "fingerprint": "82e3a185a215f9adb488a4365179a21818c12976f6a8b1f0b9736c7790f90097",
+            "accepted": true
+          },
+          "incompatible_indices": []
+        }
+      ]
+    },
+    {
+      "scenario": "C",
+      "title": "nearly defeated unit",
+      "ppo": {
+        "index": 0,
+        "action": {
+          "kind": "WAIT",
+          "card": null,
+          "slot": null,
+          "position": null,
+          "cost": null
+        },
+        "probability": 0.4424273576486768,
+        "legal": true
+      },
+      "search": {
+        "index": 0,
+        "action": {
+          "kind": "WAIT",
+          "card": null,
+          "slot": null,
+          "position": null,
+          "cost": null
+        },
+        "utility": 31.320091145833334,
+        "depth": 2,
+        "nodes": 19,
+        "elapsed_ms": 350.76059999119025,
+        "timeout": false,
+        "legal": true
+      },
+      "disagreement": false,
+      "ppo_future": {
+        "tower_damage": 0.0,
+        "deaths": [],
+        "own_survivors": 0,
+        "enemy_survivors": 1,
+        "elixir": 9.178,
+        "fingerprint": "6bdc0d7a6fca2338d8b5a6c7ddb162fcc0071a2d603c2e2eae7a55f71625c502",
+        "accepted": true
+      },
+      "search_future": {
+        "tower_damage": 0.0,
+        "deaths": [],
+        "own_survivors": 0,
+        "enemy_survivors": 1,
+        "elixir": 9.178,
+        "fingerprint": "6bdc0d7a6fca2338d8b5a6c7ddb162fcc0071a2d603c2e2eae7a55f71625c502",
+        "accepted": true
+      },
+      "incompatible_indices": [],
+      "deterministic": true,
+      "repeats": [
+        {
+          "scenario": "C",
+          "title": "nearly defeated unit",
+          "ppo": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "probability": 0.4424273576486768,
+            "legal": true
+          },
+          "search": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "utility": 31.320091145833334,
+            "depth": 2,
+            "nodes": 19,
+            "elapsed_ms": 350.76059999119025,
+            "timeout": false,
+            "legal": true
+          },
+          "disagreement": false,
+          "ppo_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 0,
+            "enemy_survivors": 1,
+            "elixir": 9.178,
+            "fingerprint": "6bdc0d7a6fca2338d8b5a6c7ddb162fcc0071a2d603c2e2eae7a55f71625c502",
+            "accepted": true
+          },
+          "search_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 0,
+            "enemy_survivors": 1,
+            "elixir": 9.178,
+            "fingerprint": "6bdc0d7a6fca2338d8b5a6c7ddb162fcc0071a2d603c2e2eae7a55f71625c502",
+            "accepted": true
+          },
+          "incompatible_indices": []
+        },
+        {
+          "scenario": "C",
+          "title": "nearly defeated unit",
+          "ppo": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "probability": 0.4424273576486768,
+            "legal": true
+          },
+          "search": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "utility": 31.320091145833334,
+            "depth": 2,
+            "nodes": 19,
+            "elapsed_ms": 353.34810000495054,
+            "timeout": false,
+            "legal": true
+          },
+          "disagreement": false,
+          "ppo_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 0,
+            "enemy_survivors": 1,
+            "elixir": 9.178,
+            "fingerprint": "6bdc0d7a6fca2338d8b5a6c7ddb162fcc0071a2d603c2e2eae7a55f71625c502",
+            "accepted": true
+          },
+          "search_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 0,
+            "enemy_survivors": 1,
+            "elixir": 9.178,
+            "fingerprint": "6bdc0d7a6fca2338d8b5a6c7ddb162fcc0071a2d603c2e2eae7a55f71625c502",
+            "accepted": true
+          },
+          "incompatible_indices": []
+        }
+      ]
+    },
+    {
+      "scenario": "D",
+      "title": "low elixir",
+      "ppo": {
+        "index": 0,
+        "action": {
+          "kind": "WAIT",
+          "card": null,
+          "slot": null,
+          "position": null,
+          "cost": null
+        },
+        "probability": 1.0,
+        "legal": true
+      },
+      "search": {
+        "index": 0,
+        "action": {
+          "kind": "WAIT",
+          "card": null,
+          "slot": null,
+          "position": null,
+          "cost": null
+        },
+        "utility": 26.248098645833334,
+        "depth": 2,
+        "nodes": 3,
+        "elapsed_ms": 26.29940000770148,
+        "timeout": false,
+        "legal": true
+      },
+      "disagreement": false,
+      "ppo_future": {
+        "tower_damage": 0.0,
+        "deaths": [],
+        "own_survivors": 0,
+        "enemy_survivors": 1,
+        "elixir": 1.178,
+        "fingerprint": "cb217141c76ed47f541a5aae897f279a20ab6961b8c19e3ad9c4b3953684d311",
+        "accepted": true
+      },
+      "search_future": {
+        "tower_damage": 0.0,
+        "deaths": [],
+        "own_survivors": 0,
+        "enemy_survivors": 1,
+        "elixir": 1.178,
+        "fingerprint": "cb217141c76ed47f541a5aae897f279a20ab6961b8c19e3ad9c4b3953684d311",
+        "accepted": true
+      },
+      "incompatible_indices": [],
+      "deterministic": true,
+      "repeats": [
+        {
+          "scenario": "D",
+          "title": "low elixir",
+          "ppo": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "probability": 1.0,
+            "legal": true
+          },
+          "search": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "utility": 26.248098645833334,
+            "depth": 2,
+            "nodes": 3,
+            "elapsed_ms": 26.29940000770148,
+            "timeout": false,
+            "legal": true
+          },
+          "disagreement": false,
+          "ppo_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 0,
+            "enemy_survivors": 1,
+            "elixir": 1.178,
+            "fingerprint": "cb217141c76ed47f541a5aae897f279a20ab6961b8c19e3ad9c4b3953684d311",
+            "accepted": true
+          },
+          "search_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 0,
+            "enemy_survivors": 1,
+            "elixir": 1.178,
+            "fingerprint": "cb217141c76ed47f541a5aae897f279a20ab6961b8c19e3ad9c4b3953684d311",
+            "accepted": true
+          },
+          "incompatible_indices": []
+        },
+        {
+          "scenario": "D",
+          "title": "low elixir",
+          "ppo": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "probability": 1.0,
+            "legal": true
+          },
+          "search": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "utility": 26.248098645833334,
+            "depth": 2,
+            "nodes": 3,
+            "elapsed_ms": 23.958200006745756,
+            "timeout": false,
+            "legal": true
+          },
+          "disagreement": false,
+          "ppo_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 0,
+            "enemy_survivors": 1,
+            "elixir": 1.178,
+            "fingerprint": "cb217141c76ed47f541a5aae897f279a20ab6961b8c19e3ad9c4b3953684d311",
+            "accepted": true
+          },
+          "search_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 0,
+            "enemy_survivors": 1,
+            "elixir": 1.178,
+            "fingerprint": "cb217141c76ed47f541a5aae897f279a20ab6961b8c19e3ad9c4b3953684d311",
+            "accepted": true
+          },
+          "incompatible_indices": []
+        }
+      ]
+    },
+    {
+      "scenario": "E",
+      "title": "defense and possible counter pressure",
+      "ppo": {
+        "index": 0,
+        "action": {
+          "kind": "WAIT",
+          "card": null,
+          "slot": null,
+          "position": null,
+          "cost": null
+        },
+        "probability": 0.5050811213919184,
+        "legal": true
+      },
+      "search": {
+        "index": 0,
+        "action": {
+          "kind": "WAIT",
+          "card": null,
+          "slot": null,
+          "position": null,
+          "cost": null
+        },
+        "utility": 40.15283203125,
+        "depth": 2,
+        "nodes": 19,
+        "elapsed_ms": 334.40649999829475,
+        "timeout": false,
+        "legal": true
+      },
+      "disagreement": false,
+      "ppo_future": {
+        "tower_damage": 0.0,
+        "deaths": [],
+        "own_survivors": 1,
+        "enemy_survivors": 1,
+        "elixir": 9.178,
+        "fingerprint": "abe42634eff8e632dd20762f6f7b2625d5d31ce73de989150febc0fcb6e456dc",
+        "accepted": true
+      },
+      "search_future": {
+        "tower_damage": 0.0,
+        "deaths": [],
+        "own_survivors": 1,
+        "enemy_survivors": 1,
+        "elixir": 9.178,
+        "fingerprint": "abe42634eff8e632dd20762f6f7b2625d5d31ce73de989150febc0fcb6e456dc",
+        "accepted": true
+      },
+      "incompatible_indices": [],
+      "deterministic": true,
+      "repeats": [
+        {
+          "scenario": "E",
+          "title": "defense and possible counter pressure",
+          "ppo": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "probability": 0.5050811213919184,
+            "legal": true
+          },
+          "search": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "utility": 40.15283203125,
+            "depth": 2,
+            "nodes": 19,
+            "elapsed_ms": 334.40649999829475,
+            "timeout": false,
+            "legal": true
+          },
+          "disagreement": false,
+          "ppo_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 1,
+            "enemy_survivors": 1,
+            "elixir": 9.178,
+            "fingerprint": "abe42634eff8e632dd20762f6f7b2625d5d31ce73de989150febc0fcb6e456dc",
+            "accepted": true
+          },
+          "search_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 1,
+            "enemy_survivors": 1,
+            "elixir": 9.178,
+            "fingerprint": "abe42634eff8e632dd20762f6f7b2625d5d31ce73de989150febc0fcb6e456dc",
+            "accepted": true
+          },
+          "incompatible_indices": []
+        },
+        {
+          "scenario": "E",
+          "title": "defense and possible counter pressure",
+          "ppo": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "probability": 0.5050811213919184,
+            "legal": true
+          },
+          "search": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "utility": 40.15283203125,
+            "depth": 2,
+            "nodes": 19,
+            "elapsed_ms": 335.5932999984361,
+            "timeout": false,
+            "legal": true
+          },
+          "disagreement": false,
+          "ppo_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 1,
+            "enemy_survivors": 1,
+            "elixir": 9.178,
+            "fingerprint": "abe42634eff8e632dd20762f6f7b2625d5d31ce73de989150febc0fcb6e456dc",
+            "accepted": true
+          },
+          "search_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 1,
+            "enemy_survivors": 1,
+            "elixir": 9.178,
+            "fingerprint": "abe42634eff8e632dd20762f6f7b2625d5d31ce73de989150febc0fcb6e456dc",
+            "accepted": true
+          },
+          "incompatible_indices": []
+        }
+      ]
+    },
+    {
+      "scenario": "F",
+      "title": "temporal threat",
+      "ppo": {
+        "index": 0,
+        "action": {
+          "kind": "WAIT",
+          "card": null,
+          "slot": null,
+          "position": null,
+          "cost": null
+        },
+        "probability": 0.44932161560326495,
+        "legal": true
+      },
+      "search": {
+        "index": 0,
+        "action": {
+          "kind": "WAIT",
+          "card": null,
+          "slot": null,
+          "position": null,
+          "cost": null
+        },
+        "utility": 28.15720052083333,
+        "depth": 2,
+        "nodes": 19,
+        "elapsed_ms": 324.65290000254754,
+        "timeout": false,
+        "legal": true
+      },
+      "disagreement": false,
+      "ppo_future": {
+        "tower_damage": 0.0,
+        "deaths": [],
+        "own_survivors": 0,
+        "enemy_survivors": 1,
+        "elixir": 7.178,
+        "fingerprint": "95199b33ce782afbd8664d810844edba2241e74d432c16d04dd28b25e062e8c7",
+        "accepted": true
+      },
+      "search_future": {
+        "tower_damage": 0.0,
+        "deaths": [],
+        "own_survivors": 0,
+        "enemy_survivors": 1,
+        "elixir": 7.178,
+        "fingerprint": "95199b33ce782afbd8664d810844edba2241e74d432c16d04dd28b25e062e8c7",
+        "accepted": true
+      },
+      "incompatible_indices": [],
+      "deterministic": true,
+      "repeats": [
+        {
+          "scenario": "F",
+          "title": "temporal threat",
+          "ppo": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "probability": 0.44932161560326495,
+            "legal": true
+          },
+          "search": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "utility": 28.15720052083333,
+            "depth": 2,
+            "nodes": 19,
+            "elapsed_ms": 324.65290000254754,
+            "timeout": false,
+            "legal": true
+          },
+          "disagreement": false,
+          "ppo_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 0,
+            "enemy_survivors": 1,
+            "elixir": 7.178,
+            "fingerprint": "95199b33ce782afbd8664d810844edba2241e74d432c16d04dd28b25e062e8c7",
+            "accepted": true
+          },
+          "search_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 0,
+            "enemy_survivors": 1,
+            "elixir": 7.178,
+            "fingerprint": "95199b33ce782afbd8664d810844edba2241e74d432c16d04dd28b25e062e8c7",
+            "accepted": true
+          },
+          "incompatible_indices": []
+        },
+        {
+          "scenario": "F",
+          "title": "temporal threat",
+          "ppo": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "probability": 0.44932161560326495,
+            "legal": true
+          },
+          "search": {
+            "index": 0,
+            "action": {
+              "kind": "WAIT",
+              "card": null,
+              "slot": null,
+              "position": null,
+              "cost": null
+            },
+            "utility": 28.15720052083333,
+            "depth": 2,
+            "nodes": 19,
+            "elapsed_ms": 329.7006000066176,
+            "timeout": false,
+            "legal": true
+          },
+          "disagreement": false,
+          "ppo_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 0,
+            "enemy_survivors": 1,
+            "elixir": 7.178,
+            "fingerprint": "95199b33ce782afbd8664d810844edba2241e74d432c16d04dd28b25e062e8c7",
+            "accepted": true
+          },
+          "search_future": {
+            "tower_damage": 0.0,
+            "deaths": [],
+            "own_survivors": 0,
+            "enemy_survivors": 1,
+            "elixir": 7.178,
+            "fingerprint": "95199b33ce782afbd8664d810844edba2241e74d432c16d04dd28b25e062e8c7",
+            "accepted": true
+          },
+          "incompatible_indices": []
+        }
+      ]
+    }
+  ]
+}
